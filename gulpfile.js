@@ -42,9 +42,6 @@ gulp.task('copyfiles', function() {
    gulp.src('./fonts/**/*.{ttf,woff,eof,svg}')
    .pipe(gulp.dest('./dev/fonts'));
 
-   gulp.src('./favicon.ico')
-   .pipe(gulp.dest('./dev'));
-
    gulp.src('./CNAME')
    .pipe(gulp.dest('./dev'));
 
